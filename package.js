@@ -3,7 +3,7 @@ Package.describe({
   version: '0.0.1',
   summary: 'Web3 login/sign-up support for accounts',
   // URL to the Git repository containing the source code for this package.
-  // git: '',
+  git: 'https://github.com/seanbrodie/meteor-accounts-web3',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   // documentation: 'README.md'
