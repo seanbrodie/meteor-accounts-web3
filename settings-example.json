@@ -1,0 +1,35 @@
+{
+    "environment": "dev",
+    "secretKey": "ABC123",
+    "key":"value",
+    "public": {
+        "appName": "my-app",
+        "network": "mumbai",
+        "providers": {
+            "injected": {
+                "display": {
+                    "logo": "",
+                    "name": "Injected",
+                    "description": "Connect with the provider in your Browser"
+                },
+                "package": null
+            },
+            "walletconnect": {
+                "network": "mumbai",
+                "display": {
+                    "logo": "",
+                    "name": "WalletConnect",
+                    "description": "Scan with WalletConnect to login"
+                },
+                "package": "",
+                "options": {
+                    "infuraId": "XXX",
+                    "chainId": "80001",
+                    "rpc": {
+                        "80001": "https://rpc-mumbai.matic.today"
+                    }
+                }
+            }
+        }
+    }
+}
