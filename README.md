@@ -9,6 +9,8 @@ A Meteor plugin for simple web3 authentication.
 
 ```shell
 meteor add seanbrodie:accounts-web3
+meteor npm install ethers
+ meteor npm install --save @walletconnect/web3-provider
 ```
 
 ### Web3 calls

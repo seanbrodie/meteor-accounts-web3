@@ -27,6 +27,7 @@ const enableWeb3 = async () => {
   })
 
   try {
+    await web3Modal.clearCachedProvider();
     const instance = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(instance);
     return provider;
