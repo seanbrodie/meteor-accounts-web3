@@ -1,6 +1,6 @@
 Package.describe({
   name: 'seanbrodie:accounts-web3',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Web3 login/sign-up support for accounts',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/seanbrodie/meteor-accounts-web3',
